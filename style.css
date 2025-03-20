@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url('https://images.pexels.com/photos/3441726/pexels-photo-3441726.jpeg?cs=srgb&dl=pexels-tomfisk-3441726.jpg&fm=jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+}
+
+#Search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.3); /* Tetap transparan */
+    padding: 10px 15px;
+    border-radius: 15px;
+    gap: 8px; /* Jarak antar elemen */
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background: transparent;
+}
+
+#city-name {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    outline: none;
+    width: 200px;
+}
+
+#city-name:-webkit-autofill,
+#city-name:-webkit-autofill:hover,
+#city-name:-webkit-autofill:focus,
+#city-name:-webkit-autofill:active {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0.2) inset !important;
+    color: white !important;
+}
+
+#city-name:focus {
+    background-color: rgba(255, 255, 255, 0.2); 
+}
+
+#city-name::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.btn {
+    background: rgba(255, 255, 255, 0.2); 
+    border: none;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn svg {
+    width: 18px;
+    height: 18px;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.btn:active {
+    background: rgba(255, 255, 255, 0.2) !important; 
+}
+
+#button-city {
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button-location {
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.weather-container {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    text-align: end;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 8px;
+    gap: 15px; 
+}
+
+.date-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-top: -90px;
+    margin-right: 40px;
+}
+
+#date {
+    font-size: 17px;
+    margin: 5px 0;
+    margin-top: -30px;
+    margin-left: -15px;
+    align-items: center;
+    text-align: center;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Memusatkan elemen */
+    text-align: center; /* Pastikan teks juga rata tengah */
+}
+
+#temperature {
+    font-size: 75px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+    align-items: end;
+    text-align: end;
+}
+
+#city-display {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px; /* Memberi jarak dari suhu */
+}
+
+#wind-speed {
+    font-size: 15px;
+    margin-top: 5px; /* Memberi jarak dari kota */
+}
+
+
+#forecast {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background: rgba(59, 58, 58, 0.5);
+    width: 80%;
+    padding: 15px 0;
+    gap: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+
+.text {
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-right: -30px;
+    padding: 0 15px; 
+    position: relative;
+}
+
+.text:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 10%;
+    height: 80%;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.temp {
+    font-size: 16px;
+    margin-top: 5px;
+}
