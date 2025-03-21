@@ -74,6 +74,7 @@ const getGeocoding = async () => {
         body.style.backgroundImage = 'url(https://www.pajak.com/storage/2024/01/1619407837104474-0.jpg)';
     } else if (cityName.value === 'Bogor') {
         body.style.backgroundImage = 'url(https://mediaim.expedia.com/destination/1/1c1b644fc26571dd00b23850b1ed1f00.jpg)';
+    } else if (cityName.value === 'Malang') {
         body.style.backgroundImage = 'url(https://bic.id/wp-content/uploads/2023/07/Alun-Alun_Tugu_Kota_Malang-HD.webp)';
     } else if (cityName.value === 'Lampung') {
         body.style.backgroundImage = 'url(https://www.agoda.com/wp-content/uploads/2024/06/Lampungs-landmark-siger-tower.jpg)';
@@ -82,23 +83,23 @@ const getGeocoding = async () => {
     } else if (cityName.value === 'Pekanbaru') {
         body.style.backgroundImage = 'url(https://backend.sas-hospitality.com//uploads/artikel/Pekanbaru.jpg)';
     } else if (cityName.value === 'Bali') {
-        body.style.backgroundImage = 'url(https://asset.kompas.com/crops/J0wtI2KgB4DoYQlJsNmH6wHF73I=/0x0:780x520/1200x800/data/photo/2021/10/25/61766785d084a.jpg)';
+        body.style.backgroundImage = 'url(https://d3p0bla3numw14.cloudfront.net/news-content/img/2021/05/03112735/Tempat-Tinggal-Terbaik-di-Bali.jpg)';
     } else if (cityName.value === 'Makassar') {
         body.style.backgroundImage = 'url(https://uim-makassar.ac.id/wp-content/uploads/2022/07/1_jD-8s4iAF5IBBUi3LlMQog.png)';
     } else if (cityName.value === 'Aceh') {
         body.style.backgroundImage = 'url(https://asset.kompas.com/crops/-H8DB_DqAh1BonZuWR18xxgJkuI=/0x0:1000x667/1200x800/data/photo/2022/07/24/62dd2cd042f85.jpg)';
     } else if (cityName.value === 'Papua') {
-        body.style.backgroundImage = 'url(https://asset.kompas.com/crops/23FTBKokEHH4fMnNcVZTeseuXn8=/0x0:719x479/1200x800/data/photo/2021/10/31/617e75d9cabfd.jpg)';
+        body.style.backgroundImage = 'url(https://upload.wikimedia.org/wikipedia/commons/c/cd/Pulau_Triton.jpg)';
     } else if (cityName.value === 'Medan') {
         body.style.backgroundImage = 'url(https://www.agoda.com/wp-content/uploads/2024/09/Featured-image-Al-Mashun-Mosque-Medan-Indonesia.jpg)';
     } else if (cityName.value === 'Semarang') {
-        body.style.backgroundImage = 'url(https://warakngendog.com/wp-content/uploads/2023/04/kota-semarang.jpeg)';
+        body.style.backgroundImage = 'url(https://pariwisata.semarangkota.go.id/backend/web/upload/wisata/1702998255_kotalama.jpg)';
     } else if (cityName.value === 'Palembang') {
         body.style.backgroundImage = 'url(https://parksidehotels.co.id/wp-content/uploads/2023/10/ads59a3e1f785d2d.jpg)';
     } else if (cityName.value === 'Yogyakarta') {
-        body.style.backgroundImage = 'url(https://asset.kompas.com/crops/AZsIKtoBr5tM0AxHgkl_2OqUcoM=/162x113:838x563/1200x800/data/photo/2023/02/02/63db4bb5c8574.jpg)';
+        body.style.backgroundImage = 'url(https://kotajogja.co.id/wp-content/uploads/2023/12/Keindahan-Sunset-di-Kawasan-Wisata-Tugu-Jogja.jpg)';
     } else if (cityName.value === 'Jogja') {
-        body.style.backgroundImage = 'url(https://asset.kompas.com/crops/AZsIKtoBr5tM0AxHgkl_2OqUcoM=/162x113:838x563/1200x800/data/photo/2023/02/02/63db4bb5c8574.jpg)';
+        body.style.backgroundImage = 'url(https://kotajogja.co.id/wp-content/uploads/2023/12/Keindahan-Sunset-di-Kawasan-Wisata-Tugu-Jogja.jpg)';
     } else if (cityName.value === 'Maluku') {
         body.style.backgroundImage = 'url(https://authentic-indonesia.com/wp-content/uploads/2020/06/ora-beach-in-seram-island-maluku-1.jpg)';
     } else if (cityName.value === 'Jambi') {
@@ -108,7 +109,7 @@ const getGeocoding = async () => {
     } else if (cityName.value === 'Los Angeles') {
         body.style.backgroundImage = 'url(https://lacounty.gov/wp-content/uploads/2022/03/shutterstock_1418018357-scaled.jpg)';
     } else if (cityName.value === 'Sydney') {
-        body.style.backgroundImage = 'url(https://idseducation.com/wp-content/uploads/2014/04/wisata-australia.jpg)';
+        body.style.backgroundImage = 'url(https://cms.finnair.com/resource/blob/671300/3523a759b61b788b834fe56aa57fa255/sydney-main-data.jpg?impolicy=crop&width=3995&height=2247&x=3&y=0)';
     } else if (cityName.value === 'Paris') {
         body.style.backgroundImage = 'url(https://img.static-af.com/transform/45cb9a13-b167-4842-8ea8-05d0cc7a4d04/)';
     } else if (cityName.value === 'London') {
@@ -173,7 +174,29 @@ const getGeocoding = async () => {
         body.style.backgroundImage = 'url(https://asset.kompas.com/crops/qs7lqo0UsFE7TXqwfxF7RAaYYA0=/1x0:1024x682/1200x800/data/photo/2020/05/11/5eb950a1c8fb3.jpeg)';
     } else if (cityName.value === 'Washington') {
         body.style.backgroundImage = 'url(https://www.travelandleisure.com/thmb/T4h8XPaBn5i44nab5kkrw3FJZeI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-dc-lead-image-WDCTG1223-dea2e651476348bb8e249882f63909ed.jpg)';
-    } 
+    } else if (cityName.value === 'Kendal') {
+        body.style.backgroundImage = 'url(https://bagianumum.kendalkab.go.id/assets/img/kantor_pemkab.jpg)';
+    } else if (cityName.value === 'Tasikmalaya') {
+        body.style.backgroundImage = 'url(https://mediaim.expedia.com/destination/2/5f6ceee3f3b52cf0dcf1f1a7850e8fd8.jpg)';
+    } else if (cityName.value === 'Perth') {
+        body.style.backgroundImage = 'url(https://upload.wikimedia.org/wikipedia/commons/3/3e/Perth_CBD_skyline_from_State_War_Memorial_Lookout%2C_2023%2C_04_b.jpg)';
+    } else if (cityName.value === 'Canberra') {
+        body.style.backgroundImage = 'url(https://canberra.com.au/_next/image?url=https%3A%2F%2Fcms.canberra.com.au%2Fwp-content%2Fuploads%2F2022%2F03%2F2413_actgovt_001.jpg&w=3840&q=75)';
+    } else if (cityName.value === 'Milan') {
+        body.style.backgroundImage = 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc0150ZEgIqe7YrSnguQ9MAjMKPg-6PlcbEw&s)';
+    } else if (cityName.value === 'Como') {
+        body.style.backgroundImage = 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv80l9bbZe6U9BxU3ZZcR4ucGpYsUAVYBx-Q&s)';
+    } else if (cityName.value === 'Barcelona') {
+        body.style.backgroundImage = 'url(https://statemag.state.gov/wp-content/uploads/2024/05/0624POM-A-3-scaled.jpg)';
+    } else if (cityName.value === 'Berlin') {
+        body.style.backgroundImage = 'url(https://i.natgeofe.com/n/b234ec7d-a988-4b75-9e65-749ddcbea7a0/citylife_berlin_2B4H3T1_web.jpg)';
+    } else if (cityName.value === 'Munich') {
+        body.style.backgroundImage = 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ0Pnuke1tD4LrqhokJ1oiu1Fb5Tvr7S3pJQ&s)';
+    } else if (cityName.value === 'Rotterdam') {
+        body.style.backgroundImage = 'url(https://i.natgeofe.com/n/b97f9592-2b89-48e4-9c71-d1abe3a5af5e/GettyImages-874189022.jpg)';
+    } else if (cityName.value === 'Utrecht') {
+        body.style.backgroundImage = 'url(https://i0.wp.com/collectivetravelguides.com/wp-content/uploads/2022/10/Utrecht-Historic-City-Centre-Utrecht.jpg?fit=2000%2C1333&ssl=1)';
+    }
 
     const GEOCODING_URL =  `https://geocoding-api.open-meteo.com/v1/search?name=${name}&count=1&language=en&format=json`;
 
@@ -189,6 +212,8 @@ const getGeocoding = async () => {
 
 const getLocation = () => {
     cityDisplay.innerText = 'Jakarta';
+
+     body.style.backgroundImage = 'url(https://images.pexels.com/photos/3441726/pexels-photo-3441726.jpeg?cs=srgb&dl=pexels-tomfisk-3441726.jpg&fm=jpg)';
 
     navigator.geolocation.getCurrentPosition((postion) => {
         getWeather(postion.coords.latitude, postion.coords.longitude);
