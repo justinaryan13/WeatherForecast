@@ -62,6 +62,7 @@ const formattedShortDate = (date) => {
 const getGeocoding = async () => {
     let name = cityName.value
     cityDisplay.innerText = name;
+    document.getElementById("loading").style.display = "block";
 
     if (cityName.value === 'Jakarta') {
         body.style.backgroundImage = 'url(https://images.pexels.com/photos/3441726/pexels-photo-3441726.jpeg?cs=srgb&dl=pexels-tomfisk-3441726.jpg&fm=jpg)';
@@ -72,8 +73,7 @@ const getGeocoding = async () => {
     } else if (cityName.value === 'Depok') {
         body.style.backgroundImage = 'url(https://www.pajak.com/storage/2024/01/1619407837104474-0.jpg)';
     } else if (cityName.value === 'Bogor') {
-        body.style.backgroundImage = 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmEQ85LJuPCEpVue9Dr6dX6ProAB_Jabz4pA&s)';
-    } else if (cityName.value === 'Malang') {
+        body.style.backgroundImage = 'url(https://mediaim.expedia.com/destination/1/1c1b644fc26571dd00b23850b1ed1f00.jpg)';
         body.style.backgroundImage = 'url(https://bic.id/wp-content/uploads/2023/07/Alun-Alun_Tugu_Kota_Malang-HD.webp)';
     } else if (cityName.value === 'Lampung') {
         body.style.backgroundImage = 'url(https://www.agoda.com/wp-content/uploads/2024/06/Lampungs-landmark-siger-tower.jpg)';
@@ -112,7 +112,7 @@ const getGeocoding = async () => {
     } else if (cityName.value === 'Paris') {
         body.style.backgroundImage = 'url(https://img.static-af.com/transform/45cb9a13-b167-4842-8ea8-05d0cc7a4d04/)';
     } else if (cityName.value === 'London') {
-        body.style.backgroundImage = 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNLhqqEOOBzvZ44xKRuDR_bVEtpsMLWGh78Q&s)';
+        body.style.backgroundImage = 'url(https://assets.editorial.aetnd.com/uploads/2019/03/topic-london-gettyimages-760251843-feature.jpg)';
     } else if (cityName.value === 'Mecca') {
         body.style.backgroundImage = 'url(https://cdn.britannica.com/43/156343-050-CD194769/pilgrims-Muslim-Kabah-Great-Mosque-of-Mecca.jpg)';
     } else if (cityName.value === 'Madina') {
@@ -179,6 +179,7 @@ const getGeocoding = async () => {
 
     const response = await fetch(GEOCODING_URL);
     const data = await response.json();
+    document.getElementById("loading").style.display = "none";
 
     let latitude = data.results[0].latitude;
     let longitude = data.results[0].longitude;
