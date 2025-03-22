@@ -159,7 +159,7 @@ const getGeocoding = async () => {
     } else if (cityName.value === 'China') {
         body.style.backgroundImage = 'url(https://www.chinahangzhoutour.com/upload/ueditor/image/20200908/6373517308323377606991413.jpg)';
     } else if (cityName.value === 'San Fransisco') {
-        body.style.backgroundImage = 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0HjUY5h0wPOfJ4nAXz8RAcMcIOcUsuMqeOw&s)';
+        body.style.backgroundImage = 'url(https://upload.wikimedia.org/wikipedia/commons/e/e6/The_Golden_Gate_Bridge_2019.jpg)';
     } else if (cityName.value === 'Athens') {
         body.style.backgroundImage = 'url(https://img.klm.com.cn/images/media/2347871C-C943-4032-AEC90234F6C67860)';
     } else if (cityName.value === 'Giza') {
@@ -173,7 +173,7 @@ const getGeocoding = async () => {
     } else if (cityName.value === 'Magelang') {
         body.style.backgroundImage = 'url(https://asset.kompas.com/crops/qs7lqo0UsFE7TXqwfxF7RAaYYA0=/1x0:1024x682/1200x800/data/photo/2020/05/11/5eb950a1c8fb3.jpeg)';
     } else if (cityName.value === 'Washington') {
-        body.style.backgroundImage = 'url(https://www.travelandleisure.com/thmb/T4h8XPaBn5i44nab5kkrw3FJZeI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-dc-lead-image-WDCTG1223-dea2e651476348bb8e249882f63909ed.jpg)';
+        body.style.backgroundImage = 'url(https://www.travelguide.net/media/washington-dc.jpeg)';
     } else if (cityName.value === 'Kendal') {
         body.style.backgroundImage = 'url(https://bagianumum.kendalkab.go.id/assets/img/kantor_pemkab.jpg)';
     } else if (cityName.value === 'Tasikmalaya') {
@@ -218,7 +218,7 @@ const getGeocoding = async () => {
         body.style.backgroundImage = 'url(https://internationalliving.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fwv75stsetqy3%2F7rTzoyS6NbT9DUhSyb2F9E%2F7b2e47b65e3a5a06f6c3b236b442947b%2FMalta.jpg%3Fq%3D60%26fit%3Dfill%26fm%3Dwebp&w=3840&q=60)';
     } else if (cityName.value === 'Zurich') {
         body.style.backgroundImage = 'url(https://media.myswitzerland.com/image/fetch/c_lfill,g_auto,w_3200,h_1800/f_auto,q_80,fl_keep_iptc/https://www.myswitzerland.com/-/media/dam/resources/places/z/u/zurich/images%20summer/26937_32001800.jpeg)';
-    } else if (cityName.value === 'Purwakarta') {
+    } else if (cityName.value === 'Purwamkarta') {
         body.style.backgroundImage = 'url(https://wisatamilenial.com/wp-content/uploads/2020/12/Spot-Foto-7-Pilar-di-Hidden-Valley-Hills-Purwakarta-Image-From-@ananuraena97.jpg)';
     }  else if (cityName.value === 'Purwokerto') {
         body.style.backgroundImage = 'url(https://upload.wikimedia.org/wikipedia/commons/4/4a/View_of_the_General_Gatot_Subroto_Monument.jpg)';
@@ -240,7 +240,7 @@ const getGeocoding = async () => {
         body.style.backgroundImage = 'url(https://upload.wikimedia.org/wikipedia/commons/2/20/Riyadh_Skyline.jpg)';
     } else if (cityName.value === 'Hanoi') {
         body.style.backgroundImage = 'url(https://images.squarespace-cdn.com/content/v1/6298cb774cf3830bc9b342bf/1725269488958-1NZA9Q8OMM0382X9R1PJ/hanoi-vietnam-imperial-citadel-1.jpg)';
-    } else if (cityName.value === 'Firenze', 'Florence') {
+    } else if (cityName.value === 'Firenze') {
         body.style.backgroundImage = 'url(https://www.italia.it/content/dam/tdh/en/interests/toscana/firenze/firenze/media/20210401173629-firenze-toscana-gettyimages-1145040590.jpg)';
     } else if (cityName.value === 'Bologna') {
         body.style.backgroundImage = 'url(https://lp-cms-production.imgix.net/2023-06/iStock-814346692.jpg)';
@@ -254,6 +254,14 @@ const getGeocoding = async () => {
         body.style.backgroundImage = 'url(https://media.cntraveler.com/photos/58ef9dfd0c86721c06473677/16:9/w_2048,h_1152,c_limit/positano-italy-GettyImages-584209898.jpg)';
     } else if (cityName.value === 'Naples') {
         body.style.backgroundImage = 'url(https://www.citalia.com/-/media/bynder/citalia-destinations/italy/cities/naples/naples-2022-city-view-shutterstock-2130956180-hybris.jpg?rev=7c4a6d8bd995490280ff74dcbda15d3e&h=480.375&w=1081.5)';
+    } else if (cityName.value === 'Bengkulu') {
+        body.style.backgroundImage = 'url(https://annienugraha.com/wp-content/uploads/2023/11/BM02.jpg)';
+    } else if (cityName.value === 'Batam') {
+        body.style.backgroundImage = 'url(https://cdn.rri.co.id/berita/Singaraja/o/1735653078228-IMG_0762/byk85e39oxsh07d.jpeg)';
+    } else if (cityName.value === 'Payakumbuh') {
+        body.style.backgroundImage = 'url(https://upload.wikimedia.org/wikipedia/commons/7/7d/Betapa_Indahnya_Kelok_Sembilan_Sumatra_Barat.jpg)';
+    } else if (cityName.value === 'Sukabumi') {
+        body.style.backgroundImage = 'url(https://upload.wikimedia.org/wikipedia/commons/8/80/Sukabumi_Grand_Mosque_2022_01.jpg)';
     } 
 
 
