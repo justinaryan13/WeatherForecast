@@ -213,3 +213,103 @@ body {
     font-size: 16px;
     margin-top: 5px;
 }
+
+/* RESPONSIVE DESIGN */
+
+/* Untuk layar dengan lebar max 1024px (Tablet) */
+@media (max-width: 1024px) {
+    body {
+        overflow: auto; /* Pastikan tidak ada elemen yang keluar layar */
+    }
+
+    .weather-container {
+        top: 15%;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+    }
+
+    #temperature {
+        font-size: 60px;
+    }
+
+    #wind-speed h3 {
+        font-size: 18px;
+    }
+}
+
+/* Untuk layar dengan lebar max 768px (Tablet Kecil & HP Horizontal) */
+@media (max-width: 768px) {
+    #Search {
+        flex-wrap: wrap;
+        width: 95%;
+        padding: 10px;
+    }
+
+    #city-name {
+        width: 70%;
+    }
+
+    .weather-container {
+        width: 95%;
+        top: 18%;
+    }
+
+    #temperature {
+        font-size: 50px;
+    }
+
+    #city-display {
+        font-size: 16px;
+    }
+
+    #forecast {
+        width: 95%;
+        gap: 30px;
+    }
+}
+
+/* Untuk layar dengan lebar max 480px (HP) */
+@media (max-width: 480px) {
+    #Search {
+        flex-direction: column;
+        width: 100%;
+        padding: 8px;
+    }
+
+    .input-group {
+        width: 100%;
+    }
+
+    #city-name {
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .weather-container {
+        top: 20%;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #temperature {
+        font-size: 40px;
+    }
+
+    #city-display {
+        font-size: 14px;
+    }
+
+    #forecast {
+        width: 100%;
+        gap: 20px;
+        padding: 10px;
+    }
+}
